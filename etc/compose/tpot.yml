@@ -70,6 +70,7 @@ services:
      - /data/dionaea/binaries:/opt/dionaea/var/dionaea/binaries
      - /data/dionaea/log:/opt/dionaea/var/log
      - /data/dionaea/rtp:/opt/dionaea/var/dionaea/rtp
+     - /data/dionaea/var:/opt/dionaea/var/lib/dionaea
 
 # Elasticpot service
   elasticpot:
